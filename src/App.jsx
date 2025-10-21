@@ -18,6 +18,8 @@ import CareersPage from './pages/CareersPage';
 import SustainabilityPage from './pages/SustainabilityPage';
 import ProductDetailPage from './pages/ProductDetailPage';
 import CollectionsPage from './pages/CollectionPage';
+import SearchPage from './pages/SearchPage';
+import CartPage from './pages/CartPage';
 
 
 // Placeholder pages
@@ -45,6 +47,9 @@ function App() {
           <Route path='/sustainability' element={<SustainabilityPage />} />
           <Route path="/product/:productId" element={<ProductDetailPage />} />
           <Route path="/collections" element={<CollectionsPage />} />
+          <Route path="/search" element={<SearchPage />} />
+          <Route path="/cart" element={<CartPage />} />
+          
         </Routes>
       </main>
       <Footer />

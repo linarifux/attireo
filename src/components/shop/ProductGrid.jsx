@@ -41,7 +41,7 @@ const ProductGrid = ({ products }) => {
           <select
             value={sortOption} // Control the selected value
             onChange={handleSortChange} // Update state on change
-            className="appearance-none bg-transparent border border-attireo-black/20 dark:border-gray-700 pl-4 pr-10 py-2 text-sm focus:border-attireo-gold focus:ring-0 cursor-pointer" // Add cursor pointer  
+            className="appearance-none bg-transparent border border-attireo-black/20 dark:border-gray-700 pl-4 pr-10 py-2 text-sm focus:border-attireo-gold focus:ring-0 cursor-pointer dark:text-attireo-white dark:bg-attireo-black"
           >
             <option value="newest">Sort by Newest</option>
             <option value="price-asc">Price: Low to High</option>

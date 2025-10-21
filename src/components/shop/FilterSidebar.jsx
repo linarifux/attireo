@@ -32,7 +32,7 @@ const FilterCheckbox = (
     />
     {/* Updated text colors */}
     <span
-      className="text-gray-700 dark:text-gray-300group-hover:text-attireo-black dark:group-hover:text-attireo-white"
+      className="text-gray-700 dark:text-attireo-black group-hover:text-attireo-black dark:group-hover:text-attireo-gold"
     >
       {label}
     </span>
@@ -109,7 +109,7 @@ const FilterSidebar = ({
                        bg-attireo-white dark:bg-gray-800
                        border border-attireo-black/20 dark:border-gray-700
                        focus:border-attireo-gold focus:ring-0
-                       placeholder-gray-500"
+                       placeholder-gray-500 dark:text-attireo-white"
             aria-label="Minimum price"
           />
           <span className="text-gray-500">-</span>
@@ -124,7 +124,7 @@ const FilterSidebar = ({
                        bg-attireo-white dark:bg-gray-800
                        border border-attireo-black/20 dark:border-gray-700
                        focus:border-attireo-gold focus:ring-0
-                       placeholder-gray-500"
+                       placeholder-gray-500 dark:text-attireo-white"
             aria-label="Maximum price"
           />
         </div>
@@ -142,7 +142,7 @@ const FilterSidebar = ({
                           ${
                             selectedSizes.includes(size)
                               ? "bg-attireo-black dark:bg-attireo-beige text-attireo-white dark:text-attireo-black border-transparent"
-                              : "border-attireo-black/20 dark:border-gray-700 hover:border-attireo-black dark:hover:border-attireo-white text-gray-700 dark:text-gray-300"
+                              : "border-attireo-black/20 dark:border-attireo-black hover:border-attireo-black dark:hover:border-attireo-gold text-gray-700 dark:text-gray-300"
                           }`}
             >
               {size}
